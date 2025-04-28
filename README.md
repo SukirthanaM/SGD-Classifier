@@ -52,6 +52,7 @@ iris  = load_iris()
 
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 df['target'] = iris.target
+print("Name: Sukirthana.M\nReg.no: 212224220112")
 print(df.head())
 
 x = df.drop('target', axis=1)
@@ -78,7 +79,7 @@ print(classification_report1)
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/3a60663a-a179-48c9-ac23-f893739d82a7)
+![image](https://github.com/user-attachments/assets/c513b5e5-193b-47cc-8003-cb131b9d51c5)
 ![image](https://github.com/user-attachments/assets/83dfe740-4d40-443a-a66f-940bc1a7b7bb)
 ![image](https://github.com/user-attachments/assets/b0b9ac61-7345-4102-a0be-e6f070530e80)
 ![image](https://github.com/user-attachments/assets/524c3a66-3a90-40e1-a2d3-9b4ebeaff61f)
